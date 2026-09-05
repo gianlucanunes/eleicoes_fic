@@ -1,0 +1,28 @@
+{
+  "name": "eleicoes_fic",
+  "version": "1.0.0",
+  "description": "eleições fictícias",
+  "homepage": "https://github.com/gianlucanunes/eleicoes_fic#readme",
+  "bugs": {
+    "url": "https://github.com/gianlucanunes/eleicoes_fic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gianlucanunes/eleicoes_fic.git"
+  },
+  "license": "MIT",
+  "author": "gianlucanunes",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
